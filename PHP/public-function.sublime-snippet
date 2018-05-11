@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+public function ${1:functionName}(\$${2:arg}) ${3}{
+	${4:// start here}
+}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>pubfunc</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[public function]]></description>
+</snippet>

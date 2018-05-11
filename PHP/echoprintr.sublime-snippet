@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+echo '<pre>';
+print_r(\$${1:var});
+echo '</pre>';
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>echopre</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[pre+print_r]]></description>
+</snippet>

@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+<?php
+	${1}
+?>
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>php</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope></scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[php tag with line break]]></description>
+</snippet>

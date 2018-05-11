@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+\DB::connection()->enableQueryLog();
+wemail_log(\DB::getQueryLog());
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>laraquerylog</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[laravel db query log]]></description>
+</snippet>

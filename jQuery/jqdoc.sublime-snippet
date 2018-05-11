@@ -1,0 +1,18 @@
+<snippet>
+    <content><![CDATA[
+/*jslint browser: true, indent: 4*/
+/*global jQuery*/
+
+jQuery(document).ready(function (\$) {
+    'use strict';
+
+    ${1:console.log(\$);}
+});
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>jqdoc</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[jQuery Starter]]></description>
+</snippet>
