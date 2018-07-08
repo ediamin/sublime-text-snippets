@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+wemail_sql_log();
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>wemsqllog</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.php</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[wemail_sql_log]]></description>
+</snippet>
