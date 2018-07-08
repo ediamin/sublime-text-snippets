@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+// eslint-disable-line ${1}
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>esld</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[eslint-disable-line]]></description>
+</snippet>
