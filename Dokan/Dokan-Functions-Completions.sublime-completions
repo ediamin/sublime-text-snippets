@@ -1,0 +1,383 @@
+{
+	"scope": "source.php - variable.other.php",
+	"comment": "Dokan Core Functions",
+	"completions":
+	[
+		{
+			"trigger": "dokan_admin_menu_position",
+			"contents": "dokan_admin_menu_position()"
+		},
+		{
+			"trigger": "dokan_get_current_user_id",
+			"contents": "dokan_get_current_user_id()"
+		},
+		{
+			"trigger": "dokan_is_user_seller",
+			"contents": "dokan_is_user_seller( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_is_user_customer",
+			"contents": "dokan_is_user_customer( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_is_product_author",
+			"contents": "dokan_is_product_author( ${1:\\$product_id = false} )"
+		},
+		{
+			"trigger": "dokan_is_store_page",
+			"contents": "dokan_is_store_page()"
+		},
+		{
+			"trigger": "dokan_is_seller_dashboard",
+			"contents": "dokan_is_seller_dashboard()"
+		},
+		{
+			"trigger": "dokan_redirect_login",
+			"contents": "dokan_redirect_login()"
+		},
+		{
+			"trigger": "dokan_redirect_if_not_seller",
+			"contents": "dokan_redirect_if_not_seller( ${1:\\$redirect = ''} )"
+		},
+		{
+			"trigger": "dokan_delete_product_handler",
+			"contents": "dokan_delete_product_handler()"
+		},
+		{
+			"trigger": "dokan_count_posts",
+			"contents": "dokan_count_posts( ${1:\\$post_type}, ${2:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_count_comments",
+			"contents": "dokan_count_comments( ${1:\\$post_type}, ${2:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_author_pageviews",
+			"contents": "dokan_author_pageviews( ${1:\\$seller_id} )"
+		},
+		{
+			"trigger": "dokan_author_total_sales",
+			"contents": "dokan_author_total_sales( ${1:\\$seller_id} )"
+		},
+		{
+			"trigger": "dokan_generate_sync_table",
+			"contents": "dokan_generate_sync_table()"
+		},
+		{
+			"trigger": "dokan_get_seller_earnings_by_order",
+			"contents": "dokan_get_seller_earnings_by_order( ${1:\\$order}, ${2:\\$seller_id} )"
+		},
+		{
+			"trigger": "dokan_get_seller_percentage",
+			"contents": "dokan_get_seller_percentage( ${1:\\$seller_id = false}, ${2:\\$product_id = false}, ${3:\\$category_id = false} )"
+		},
+		{
+			"trigger": "dokan_get_commission_type",
+			"contents": "dokan_get_commission_type( ${1:\\$seller_id = false}, ${2:\\$product_id = false}, ${3:\\$category_id = false} )"
+		},
+		{
+			"trigger": "dokan_get_new_post_status",
+			"contents": "dokan_get_new_post_status()"
+		},
+		{
+			"trigger": "dokan_get_client_ip",
+			"contents": "dokan_get_client_ip()"
+		},
+		{
+			"trigger": "dokan_format_time",
+			"contents": "dokan_format_time( ${1:\\$datetime} )"
+		},
+		{
+			"trigger": "dokan_post_input_box",
+			"contents": "dokan_post_input_box( ${1:\\$post_id}, ${2:\\$meta_key}, ${3:\\$attr = array}, ${4:\\$type = 'text'} )"
+		},
+		{
+			"trigger": "dokan_get_post_status",
+			"contents": "dokan_get_post_status( ${1:\\$status = ''} )"
+		},
+		{
+			"trigger": "dokan_get_post_status_label_class",
+			"contents": "dokan_get_post_status_label_class( ${1:\\$status = ''} )"
+		},
+		{
+			"trigger": "dokan_get_product_types",
+			"contents": "dokan_get_product_types( ${1:\\$status = ''} )"
+		},
+		{
+			"trigger": "dokan_posted_input",
+			"contents": "dokan_posted_input( ${1:\\$key}, ${2:\\$array = false} )"
+		},
+		{
+			"trigger": "dokan_posted_textarea",
+			"contents": "dokan_posted_textarea( ${1:\\$key} )"
+		},
+		{
+			"trigger": "dokan_get_template_part",
+			"contents": "dokan_get_template_part( ${1:\\$slug}, ${2:\\$name = ''}, ${3:\\$args = array} )"
+		},
+		{
+			"trigger": "dokan_get_template",
+			"contents": "dokan_get_template( ${1:\\$template_name}, ${2:\\$args = array}, ${3:\\$template_path = ''}, ${4:\\$default_path = ''} )"
+		},
+		{
+			"trigger": "dokan_locate_template",
+			"contents": "dokan_locate_template( ${1:\\$template_name}, ${2:\\$template_path = ''}, ${3:\\$default_path = ''}, ${4:\\$pro = false} )"
+		},
+		{
+			"trigger": "dokan_get_page_url",
+			"contents": "dokan_get_page_url( ${1:\\$page}, ${2:\\$context = 'dokan'} )"
+		},
+		{
+			"trigger": "dokan_edit_product_url",
+			"contents": "dokan_edit_product_url( ${1:\\$product_id} )"
+		},
+		{
+			"trigger": "dokan_get_option",
+			"contents": "dokan_get_option( ${1:\\$option}, ${2:\\$section}, ${3:\\$default = ''} )"
+		},
+		{
+			"trigger": "dokan_redirect_to_register",
+			"contents": "dokan_redirect_to_register()"
+		},
+		{
+			"trigger": "dokan_pre",
+			"contents": "dokan_pre( ${1:\\$value} )"
+		},
+		{
+			"trigger": "dokan_is_seller_enabled",
+			"contents": "dokan_is_seller_enabled( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_is_seller_trusted",
+			"contents": "dokan_is_seller_trusted( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_get_store_url",
+			"contents": "dokan_get_store_url( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_is_store_review_page",
+			"contents": "dokan_is_store_review_page()"
+		},
+		{
+			"trigger": "dokan_log",
+			"contents": "dokan_log( ${1:\\$message}, ${2:\\$level = 'debug'} )"
+		},
+		{
+			"trigger": "dokan_media_uploader_restrict",
+			"contents": "dokan_media_uploader_restrict( ${1:\\$args} )"
+		},
+		{
+			"trigger": "dokan_get_store_info",
+			"contents": "dokan_get_store_info( ${1:\\$seller_id} )"
+		},
+		{
+			"trigger": "dokan_get_store_tabs",
+			"contents": "dokan_get_store_tabs( ${1:\\$store_id} )"
+		},
+		{
+			"trigger": "dokan_get_seller_withdraw_mail",
+			"contents": "dokan_get_seller_withdraw_mail( ${1:\\$seller_id}, ${2:\\$type = 'paypal'} )"
+		},
+		{
+			"trigger": "dokan_get_seller_bank_details",
+			"contents": "dokan_get_seller_bank_details( ${1:\\$seller_id} )"
+		},
+		{
+			"trigger": "dokan_get_sellers",
+			"contents": "dokan_get_sellers( ${1:\\$args = array} )"
+		},
+		{
+			"trigger": "dokan_prepare_chart_data",
+			"contents": "dokan_prepare_chart_data( ${1:\\$data}, ${2:\\$date_key}, ${3:\\$data_key}, ${4:\\$interval}, ${5:\\$start_date}, ${6:\\$group_by} )"
+		},
+		{
+			"trigger": "dokan_admin_user_register",
+			"contents": "dokan_admin_user_register( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_get_percentage_of",
+			"contents": "dokan_get_percentage_of( ${1:\\$this_period = false}, ${2:\\$last_period = false} )"
+		},
+		{
+			"trigger": "dokan_get_seller_count",
+			"contents": "dokan_get_seller_count()"
+		},
+		{
+			"trigger": "dokan_get_product_count",
+			"contents": "dokan_get_product_count()"
+		},
+		{
+			"trigger": "dokan_get_sales_count",
+			"contents": "dokan_get_sales_count()"
+		},
+		{
+			"trigger": "dokan_disable_admin_bar",
+			"contents": "dokan_disable_admin_bar( ${1:\\$show_admin_bar} )"
+		},
+		{
+			"trigger": "dokan_filter_orders_for_current_vendor",
+			"contents": "dokan_filter_orders_for_current_vendor( ${1:\\$query} )"
+		},
+		{
+			"trigger": "dokan_remove_sellerdiv_metabox",
+			"contents": "dokan_remove_sellerdiv_metabox()"
+		},
+		{
+			"trigger": "dokan_number_format",
+			"contents": "dokan_number_format( ${1:\\$number} )"
+		},
+		{
+			"trigger": "dokan_get_coupon_edit_url",
+			"contents": "dokan_get_coupon_edit_url( ${1:\\$coupon_id}, ${2:\\$coupon_page = ''} )"
+		},
+		{
+			"trigger": "dokan_get_avatar_url",
+			"contents": "dokan_get_avatar_url( ${1:\\$url}, ${2:\\$id_or_email}, ${3:\\$args} )"
+		},
+		{
+			"trigger": "dokan_get_navigation_url",
+			"contents": "dokan_get_navigation_url( ${1:\\$name = ''} )"
+		},
+		{
+			"trigger": "dokan_country_dropdown",
+			"contents": "dokan_country_dropdown( ${1:\\$options}, ${2:\\$selected = ''}, ${3:\\$everywhere = false} )"
+		},
+		{
+			"trigger": "dokan_state_dropdown",
+			"contents": "dokan_state_dropdown( ${1:\\$options}, ${2:\\$selected = ''}, ${3:\\$everywhere = false} )"
+		},
+		{
+			"trigger": "dokan_get_shipping_processing_times",
+			"contents": "dokan_get_shipping_processing_times()"
+		},
+		{
+			"trigger": "dokan_get_processing_time_value",
+			"contents": "dokan_get_processing_time_value( ${1:\\$index} )"
+		},
+		{
+			"trigger": "dokan_wc_email_recipient_add_seller",
+			"contents": "dokan_wc_email_recipient_add_seller( ${1:\\$email}, ${2:\\$order} )"
+		},
+		{
+			"trigger": "dokan_wc_email_recipient_add_seller_no_stock",
+			"contents": "dokan_wc_email_recipient_add_seller_no_stock( ${1:\\$recipient}, ${2:\\$product} )"
+		},
+		{
+			"trigger": "dokan_product_listing_filter_months_dropdown",
+			"contents": "dokan_product_listing_filter_months_dropdown( ${1:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_product_listing_filter",
+			"contents": "dokan_product_listing_filter()"
+		},
+		{
+			"trigger": "dokan_product_search_by_sku",
+			"contents": "dokan_product_search_by_sku( ${1:\\$where} )"
+		},
+		{
+			"trigger": "dokan_get_social_profile_fields",
+			"contents": "dokan_get_social_profile_fields()"
+		},
+		{
+			"trigger": "dokan_seller_address_fields",
+			"contents": "dokan_seller_address_fields( ${1:\\$verified = false}, ${2:\\$required = false} )"
+		},
+		{
+			"trigger": "dokan_get_seller_address",
+			"contents": "dokan_get_seller_address( ${1:\\$seller_id = ''}, ${2:\\$get_array = false} )"
+		},
+		{
+			"trigger": "dokan_get_seller_short_address",
+			"contents": "dokan_get_seller_short_address( ${1:\\$store_id}, ${2:\\$line_break = true} )"
+		},
+		{
+			"trigger": "dokan_get_toc_url",
+			"contents": "dokan_get_toc_url( ${1:\\$store_id} )"
+		},
+		{
+			"trigger": "dokan_after_login_redirect",
+			"contents": "dokan_after_login_redirect( ${1:\\$redirect_to}, ${2:\\$user} )"
+		},
+		{
+			"trigger": "dokan_is_valid_owner",
+			"contents": "dokan_is_valid_owner( ${1:\\$post_id}, ${2:\\$user_id} )"
+		},
+		{
+			"trigger": "dokan_set_is_home_false_on_store",
+			"contents": "dokan_set_is_home_false_on_store()"
+		},
+		{
+			"trigger": "dokan_get_category_wise_seller_commission",
+			"contents": "dokan_get_category_wise_seller_commission( ${1:\\$product_id}, ${2:\\$category_id = false} )"
+		},
+		{
+			"trigger": "dokan_get_category_wise_seller_commission_type",
+			"contents": "dokan_get_category_wise_seller_commission_type( ${1:\\$product_id}, ${2:\\$category_id = false} )"
+		},
+		{
+			"trigger": "dokan_cache_update_group",
+			"contents": "dokan_cache_update_group( ${1:\\$key}, ${2:\\$group} )"
+		},
+		{
+			"trigger": "dokan_cache_clear_group",
+			"contents": "dokan_cache_clear_group( ${1:\\$group} )"
+		},
+		{
+			"trigger": "dokan_cache_reset_seller_order_data",
+			"contents": "dokan_cache_reset_seller_order_data( ${1:\\$order_id}, ${2:\\$seller_id} )"
+		},
+		{
+			"trigger": "dokan_cache_reset_order_data_on_status",
+			"contents": "dokan_cache_reset_order_data_on_status( ${1:\\$order_id}, ${2:\\$from_status}, ${3:\\$to_status}, ${4:\\$order} )"
+		},
+		{
+			"trigger": "dokan_cache_clear_seller_product_data",
+			"contents": "dokan_cache_clear_seller_product_data( ${1:\\$product_id}, ${2:\\$post_data = array} )"
+		},
+		{
+			"trigger": "dokan_cache_clear_deleted_product",
+			"contents": "dokan_cache_clear_deleted_product( ${1:\\$post_id} )"
+		},
+		{
+			"trigger": "dokan_get_earning_by_product",
+			"contents": "dokan_get_earning_by_product( ${1:\\$product_id}, ${2:\\$seller_id} )"
+		},
+		{
+			"trigger": "dokan_delete_user_details",
+			"contents": "dokan_delete_user_details( ${1:\\$user_id}, ${2:\\$reassign} )"
+		},
+		{
+			"trigger": "dokan_get_vendor",
+			"contents": "dokan_get_vendor( ${1:\\$vendor_id = } )"
+		},
+		{
+			"trigger": "dokan_get_all_caps",
+			"contents": "dokan_get_all_caps()"
+		},
+		{
+			"trigger": "dokan_parse_args",
+			"contents": "dokan_parse_args( ${1:\\$args}, ${2:\\$defaults = array} )"
+		},
+		{
+			"trigger": "dokan_get_translations_for_plugin_domain",
+			"contents": "dokan_get_translations_for_plugin_domain( ${1:\\$domain}, ${2:\\$language_dir = } )"
+		},
+		{
+			"trigger": "dokan_get_jed_locale_data",
+			"contents": "dokan_get_jed_locale_data( ${1:\\$domain}, ${2:\\$language_dir = } )"
+		},
+		{
+			"trigger": "dokan_revoke_change_order_status",
+			"contents": "dokan_revoke_change_order_status()"
+		},
+		{
+			"trigger": "dokan_remove_action_column",
+			"contents": "dokan_remove_action_column( ${1:\\$columns} )"
+		},
+		{
+			"trigger": "dokan_remove_action_button",
+			"contents": "dokan_remove_action_button( ${1:\\$actions} )"
+		}
+	]
+}
