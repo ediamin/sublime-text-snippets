@@ -1,7 +1,7 @@
 <snippet>
     <content><![CDATA[
-public function ${1:functionName}(\$${2:arg}) ${3}{
-	${4:// start here}
+public function ${1:functionName}(${2: \$${3:arg} }) ${4}{
+	${5:// start here}
 }
 ]]></content>
     <!-- Optional: Tab trigger to activate the snippet -->
