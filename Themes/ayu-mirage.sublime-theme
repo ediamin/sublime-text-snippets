@@ -1,0 +1,14 @@
+[
+  {
+    "class": "sidebar_label",
+    "font.face": "Source Code Pro"
+  },
+  {
+    "class": "tab_label",
+    "font.face": "Source Code Pro"
+  },
+  {
+    "class": "label_control",
+    "font.face": "Source Code Pro"
+  }
+]
