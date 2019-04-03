@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+console.log(JSON.stringify(${1}, null, 2))
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>console.json</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[console.log in node]]></description>
+</snippet>
