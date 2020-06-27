@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+JSON.stringify( ${1}, null, 4 )
+]]></content>
+    <!-- Optional: Tab trigger to activate the snippet -->
+    <tabTrigger>jsonstringify</tabTrigger>
+    <!-- Optional: Scope the tab trigger will be active in -->
+    <scope>source.js</scope>
+    <!-- Optional: Description to show in the menu -->
+    <description><![CDATA[JSON.stringify]]></description>
+</snippet>
